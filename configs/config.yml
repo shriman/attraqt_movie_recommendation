@@ -1,0 +1,6 @@
+data:
+  movies_metadata: 'data/movies_metadata.csv'
+  ratings: 'data/ratings.csv'
+  evaluation_ratings: 'data/evaluation_ratings.csv'
+  true_ratings: 'data/true_ratings.csv'
+  submission: 'data/submission.csv'
