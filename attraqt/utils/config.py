@@ -16,11 +16,21 @@ class DataSources(BaseModel):
     ratings: str
     evaluation_ratings: str
     true_ratings: str
+
+
+class OutputSources(BaseModel):
     submission: str
+    bonus_submission: str
+
+
+class TrainedModel(BaseModel):
+    trained_model_path: str
 
 
 class Config(BaseSettings):
     data: DataSources
+    output: OutputSources
+    model: TrainedModel
 
 
 def load_config_file(yaml_file: str):

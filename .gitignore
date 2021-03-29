@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# local data directory
+/data/outputs/
+/data/evaluation_ratings.csv
+/data/movies_metadata.csv
+/data/outputs-20210329T100442Z-001.zip
+/data/ratings.csv

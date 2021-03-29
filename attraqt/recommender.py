@@ -2,7 +2,7 @@
 import pandas as pd
 import logging
 
-from surprise import Dataset, SVD, Reader
+from surprise import Dataset, SVD, Reader, dump
 from surprise.model_selection import GridSearchCV
 
 logger = logging.getLogger(__name__)
@@ -36,4 +36,13 @@ def main(ratings_df: pd.DataFrame):
         "Finished running the grid search and found the optimal hyper paramters"
     )
 
+    return recommender
+
+
+def save_model(trained_model_path, trained_model):
+    dump.dump(trained_model_path, trained_model)
+
+
+def load_model(trained_model_path):
+    _, recommender = dump.load(trained_model_path)
     return recommender

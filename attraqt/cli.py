@@ -1,7 +1,7 @@
 import logging
 import click
 
-from attraqt.model import get_movie_ratings
+from attraqt.model import train, predict_ratings, evaluate_submission
 from attraqt.utils.config import load_config_file
 
 logger = logging.getLogger(__name__)
@@ -36,9 +36,33 @@ def cli(context, config_file: [str]):
 
 @cli.command()
 @click.pass_context
-def model(context):
+def train(context):
     config_file = context.obj["config_file"].get_config_file()
     config = load_config_file(config_file)
     logger.info("config file: ", config_file)
     logger.info("config", config)
-    get_movie_ratings(config)
+    train(config)
+
+
+@cli.command()
+@click.pass_context
+def predict(context):
+    config_file = context.obj["config_file"].get_config_file()
+    config = load_config_file(config_file)
+    logger.info("config file: ", config_file)
+    logger.info("config", config)
+    print("random")
+    logger.info("Running the test program")
+    predict_ratings(config)
+
+
+@cli.command()
+@click.pass_context
+def evaluate(context):
+    config_file = context.obj["config_file"].get_config_file()
+    config = load_config_file(config_file)
+    logger.info("config file: ", config_file)
+    logger.info("config", config)
+    print("random")
+    logger.info("Running the evaluation")
+    evaluate_submission(config)

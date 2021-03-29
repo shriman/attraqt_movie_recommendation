@@ -3,4 +3,10 @@ data:
   ratings: 'data/ratings.csv'
   evaluation_ratings: 'data/evaluation_ratings.csv'
   true_ratings: 'data/true_ratings.csv'
-  submission: 'data/submission.csv'
+
+output:
+  submission: 'data/outputs/submission.csv'
+  bonus_submission: 'data/outputs/bonus_submission.csv'
+
+model:
+  trained_model_path: 'data/outputs/svd_trained'
