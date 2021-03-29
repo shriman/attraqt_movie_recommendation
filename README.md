@@ -57,5 +57,5 @@ $ python -m attraqt evaluate
 * **To correctly run the evaluation, it is assumed that the true ratings are stored in the file true_ratings.csv in the path data/true_ratings.csv** 
   and have the following column names: **UserId, ModelId, TrueRating**
   
-
-
+* The trained model is can be downloaded from [here](https://drive.google.com/file/d/13l6Sf27bBjoaoLsHjxN25OQHarzksOiP/view?usp=sharing)  
+* The initial submissions file can be downloaded from [here](https://drive.google.com/file/d/1w-3kaRHxRYEb7bbpi208xuEoH08JtBOu/view?usp=sharing)
