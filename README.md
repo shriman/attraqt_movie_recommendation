@@ -56,15 +56,6 @@ $ python -m attraqt evaluate
 ```
 * **To correctly run the evaluation, it is assumed that the true ratings are stored in the file true_ratings.csv in the path data/true_ratings.csv** 
   and have the following column names: **UserId, ModelId, TrueRating**
+  
 
-
-
-
-
-
-
-
-
-
-## true results should have TrueRating as header
 
