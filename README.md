@@ -7,7 +7,7 @@ Please read the documentation below to run the code and generate the results.
 The repository contains two colab notebooks, which can be viewed either here in GitHub or in Google Colab (links are in files.)
 * [**Attraqt.ipynb**](https://github.com/shriman/attraqt_movie_recommendation/blob/main/Attraqt.ipynb) : 
   * Initial data exploration and data cleaning.
-  * **Basic recommender**: Recommender based salely on movie ratings. Predicts top n movies of all time.
+  * **Basic recommender**: Recommender based solely on movie ratings. Predicts top n movies of all time.
   * **Genre-based movie recommender (top-K movies)**: Recommends top-n movies in each genre. 
   * **Metadata-based recommender / Content-based filtering** Recommends movies based on **tagline** and **overview**, using tfidf on text.
   
