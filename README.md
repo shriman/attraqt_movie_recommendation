@@ -4,12 +4,12 @@ This is the submission code for movies recommender test.
 Please read the documentation below to run the code and generate the results.
 
 ## Colab notebooks and preliminary data explorations
-The repository contains two colab notebook, which can be viewed either here in GitHub or in Goole Colab (links are in files.)
+The repository contains two colab notebooks, which can be viewed either here in GitHub or in Google Colab (links are in files.)
 * [**Attraqt.ipynb**](https://github.com/shriman/attraqt_movie_recommendation/blob/main/Attraqt.ipynb) : 
-  * Inital data exloration and data cleaning.
+  * Initial data exploration and data cleaning.
   * **Basic recommender**: Recommender based salely on movie ratings. Predicts top n movies of all time.
-  * **Genre based movie recommender (top-K movies)**: Recommends top-n movies in each genre. 
-  * **Metadata based recommender / Content based filtering** Recommends movies based on **tagline** and **overview**, using tfidf on text.
+  * **Genre-based movie recommender (top-K movies)**: Recommends top-n movies in each genre. 
+  * **Metadata-based recommender / Content-based filtering** Recommends movies based on **tagline** and **overview**, using tfidf on text.
   
 * [**Attraqt_collaborative_filtering_svd.ipynb**](https://github.com/shriman/attraqt_movie_recommendation/blob/main/Attraqt_collaborative_filtering_svd.ipynb):  
   * **Collaborative filtering based recommender** using the user ratings.
