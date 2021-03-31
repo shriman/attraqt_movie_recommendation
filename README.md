@@ -50,7 +50,7 @@ model:
 
 ## Usage
 The project used **cli** to run the commands
-* Prain and save the model on the disk
+* Train and save the model on the disk
 ```shell
 # train the model and save to disk
 $ python -m attraqt train
