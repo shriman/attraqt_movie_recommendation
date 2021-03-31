@@ -14,7 +14,7 @@ The repository contains two colab notebooks, which can be viewed either here in 
 * [**Attraqt_collaborative_filtering_svd.ipynb**](https://github.com/shriman/attraqt_movie_recommendation/blob/main/Attraqt_collaborative_filtering_svd.ipynb):  
   * **Collaborative filtering based recommender** using the user ratings.
   * **Submission**: code to generate the submission results.
-  * **Advanced recommender**: using a combination of collaborative filtering and content based filtering approach.
+  * **Advanced recommender**: using a combination of collaborative filtering and content-based filtering approach.
 
 ## Set-up
 * Clone the repository into your local folder.
