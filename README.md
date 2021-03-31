@@ -3,6 +3,19 @@ This is the submission code for movies recommender test.
 
 Please read the documentation below to run the code and generate the results.
 
+## Colab notebooks and preliminary data explorations
+The repository contains two colab notebook, which can be viewed either here in GitHub or in Goole Colab (links are in files.)
+* [**Attraqt.ipynb**](https://github.com/shriman/attraqt_movie_recommendation/blob/main/Attraqt.ipynb) : 
+  * Inital data exloration and data cleaning.
+  * **Basic recommender**: Recommender based salely on movie ratings. Predicts top n movies of all time.
+  * **Genre based movie recommender (top-K movies)**: Recommends top-n movies in each genre. 
+  * **Metadata based recommender / Content based filtering** Recommends movies based on **tagline** and **overview**, using tfidf on text.
+  
+* [**Attraqt_collaborative_filtering_svd.ipynb**](https://github.com/shriman/attraqt_movie_recommendation/blob/main/Attraqt_collaborative_filtering_svd.ipynb):  
+  * **Collaborative filtering based recommender** using the user ratings.
+  * **Submission**: code to generate the submission results.
+  * **Advanced recommender**: using a combination of collaborative filtering and content based filtering approach.
+
 ## Set-up
 * Clone the repository into your local folder.
 * To run the code, you will need to have **Python 3.9** and **pip** installed. 
@@ -59,3 +72,4 @@ $ python -m attraqt evaluate
   
 * The trained model is can be downloaded from [here](https://drive.google.com/file/d/13l6Sf27bBjoaoLsHjxN25OQHarzksOiP/view?usp=sharing)  
 * The initial submissions file can be downloaded from [here](https://drive.google.com/file/d/1w-3kaRHxRYEb7bbpi208xuEoH08JtBOu/view?usp=sharing)
+
